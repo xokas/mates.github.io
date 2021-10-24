@@ -1,0 +1,18 @@
+.operaciones {
+	font-size: 3rem;
+}
+.operaciones .card-body{
+	text-align: center;
+}
+.operaciones .sumandos{
+	text-align: right;
+}
+.operaciones .botones{
+	text-align: center;
+}
+.operaciones .botones button{
+	font-size:  1.5rem;
+}
+.result-success{
+
+}
