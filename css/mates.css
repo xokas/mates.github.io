@@ -8,11 +8,14 @@
 	text-align: right;
 }
 .operaciones .botones{
-	text-align: center;
+	
 }
 .operaciones .botones button{
 	font-size:  1.5rem;
 }
 .result-success{
 
+}
+div[name="result"]{
+	caret-color: transparent;
 }
