@@ -1,0 +1,269 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PHOTOS",
+				"PHOTOS_DESTDIR2"
+			],
+			[
+				"Choi",
+				"ChoiceInline"
+			],
+			[
+				"pubdate",
+				"-pub_date"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"pub",
+				"pub_date"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/juako/.steam/debian-installation/steamapps/common/STAR WARS Tie Fighter/collectors_cd/dosbox_tiecd.conf",
+		"/home/juako/steam-355250.log",
+		"/home/juako/Documents/Henar/Manualidades/vinilo_nenos/texto",
+		"/home/juako/Documents/development/python/locallibrary/locallibrary/config.py",
+		"/home/juako/Downloads/dxvk_versions.json",
+		"/home/juako/.steam/debian-installation/steamapps/common/STAR WARS Tie Fighter/collectors_cd/dosbox_tiecd_settings.conf",
+		"/home/juako/Downloads/gog_star_wars_tie_fighter_special_edition_2.1.0.3.sh",
+		"/home/juako/Documents/Henar/Nuevo documento de texto.txt",
+		"/home/juako/Documents/Henar/laveb/noname.eml",
+		"/media/juako/Tera2/Documents and Settings/JuaKo/Mis documentos/Mis imágenes/fotos_puente_umia.txt",
+		"/media/juako/500GB/Backups/backup.sh",
+		"/media/juako/500GB/Backups/Proyectos 2019-06-15 19;09;16 (Completo).txt",
+		"/run/user/1000/gvfs/mtp:host=motorola_moto_g_pro_ZY227GK7JR/Almacenamiento interno compartido/WhatsApp/Media/WhatsApp Audio/AUD-20201231-WA0000.opus",
+		"/run/user/1000/gvfs/mtp:host=motorola_moto_g_pro_ZY227GK7JR/Almacenamiento interno compartido/WhatsApp/Media/WhatsApp Audio/AUD-20201105-WA0002.opus",
+		"/home/juako/Documents/development/python/locallibrary/locallibrary/settings.py",
+		"/home/juako/Documents/development/python/mysite/mysite/settings.py",
+		"/home/juako/.steam/steam/steamapps/common/STAR WARS X-Wing/remastered/prefs.cfg",
+		"/home/juako/.steam/steam/steamapps/common/STAR WARS X-Wing/collectors_cd/XOKAS.PLT",
+		"/home/juako/.cache/.fr-ybdzXt/1/Nestwork/CloudStation/GIT/product_pettracker/sw/server/pt_server/ptserver/tests/test/ptserver/cucumber/runners/ChatsDaoRunner.java",
+		"/home/juako/.cache/.fr-QYM6Uu/1/Nestwork/CloudStation/GIT/product_pettracker/sw/server/pt_server/ptserver/tests/test/ptserver/cucumber/steps/dao/CommonsDaoSteps.java",
+		"/home/juako/.cache/.fr-x0Ta9t/1/Nestwork/CloudStation/GIT/product_pettracker/sw/server/pt_server/ptserver/tests/test/ptserver/cucumber/steps/comm/PtServerSteps.java",
+		"/home/juako/.cache/.fr-00bwvx/1/Nestwork/CloudStation/GIT/product_pettracker/sw/server/pt_server/ptserver/tests/test/ptserver/cucumber/runners/PtDeviceApiCommRunnerTest.java",
+		"/home/juako/.cache/.fr-jIErXt/1/Nestwork/CloudStation/GIT/product_pettracker/sw/server/pt_server/ptserver/tests/test/ptserver/cucumber/runners/EventsDaoRunner.java",
+		"/home/juako/.cache/.fr-l6WWRw/1/Nestwork/CloudStation/GIT/product_pettracker/sw/server/pt_server/tests/Vagrant96/java-setup",
+		"/home/juako/.cache/.fr-RrYJ9u/1/Nestwork/CloudStation/GIT/product_pettracker/sw/server/pt_server/tests/Vagrant96/mvntest.sh",
+		"/home/juako/.cache/.fr-T01bju/1/Nestwork/CloudStation/GIT/product_pettracker/sw/server/pt_server/ptserver/tests/test/ptserver/cucumber/runners/DevicesDaoRunner.java",
+		"/home/juako/.cache/.fr-Xz2wzx/1/Nestwork/CloudStation/GIT/product_pettracker/sw/server/pt_server/ptserver/src/net/ptserver/init/Init.java",
+		"/home/juako/.cache/.fr-hFha1w/1/Nestwork/CloudStation/GIT/product_pettracker/sw/server/pt_server/ptserver/tests/test/ptserver/beans/tests/logTesting.java",
+		"/home/juako/.cache/.fr-3biSAw/1/Nestwork/CloudStation/GIT/product_pettracker/sw/server/pt_server/ptserver/tests/test/ptserver/beans/tests/InitTesting.java",
+		"/home/juako/.cache/.fr-LyQbku/1/Nestwork/CloudStation/GIT/product_pettracker/sw/server/pt_server/ptserver/tests/test/ptserver/cucumber/steps/comm/PtDeviceAPICommSteps.java",
+		"/home/juako/Documents/development/python/mysite/polls/urls.py",
+		"/home/juako/Documents/development/python/mysite/mysite/urls.py",
+		"/home/juako/Documents/development/python/mysite/polls/admin.py",
+		"/home/juako/Documents/development/python/mysite/templates/admin/base_site.html",
+		"/home/juako/Documents/development/python/mysite/README.md",
+		"/home/juako/Documents/development/python/mysite/polls/models.py",
+		"/home/juako/Documents/development/python/mysite/polls/views.py",
+		"/home/juako/Documents/development/python/mysite/polls/templates/polls/results.html",
+		"/home/juako/Documents/development/python/mysite/polls/tests.py",
+		"/home/juako/Documents/development/python/mysite/polls/static/polls/style.css",
+		"/home/juako/Documents/development/python/mysite/polls/templates/polls/index.html",
+		"/home/juako/Documents/development/python/mysite/polls/templates/polls/detail.html",
+		"/home/juako/Documents/development/python/mysite/manage.py",
+		"/home/juako/Documents/development/python/mysite/settings.py",
+		"/etc/apt/preferences.d/nosnap.pref",
+		"/home/juako/.aMule/remote.conf"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
