@@ -6,6 +6,7 @@ $(document).ready(function(){
 	//$(document).contents().find("div[contenteditable='true']").first().focus();
 
 	$("#header").load("./header.html");
+	$("#sidenavAccordion").load("./sidenavAccordion.html");
 
 	let location = window.location.href;
 	console.log(location);
