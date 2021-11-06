@@ -13,6 +13,8 @@ $(document).ready(function(){
 		sumaConLlevadas(1);
 	}else if(location.includes('sumas_infantil.html')){
 		sumaSimple(1);
+	}else if(location.includes('restas_sin_llevadas.html')){
+		restaSinLlevadas(1);
 	}
 
 	reverseTextResult();
@@ -98,12 +100,52 @@ function sumaSinLlevadas(i){
 	$(id + " [name='result']").focus();
 }
 
-function validar(i){
+function restaSinLlevadas(i){
+	let id = "#resta" + i;
+	let minuendo = 0;
+	let sustraendo = 0;
+	let diff = Math.pow(10, gLevel);
+	let limitInf = diff / 10;
+	console.log(diff + " " + limitInf);
+	clean(id);
+	do{
+
+		let unidad1 = 0;
+		let unidad2 = 0;
+		do{
+			unidad1 = Math.floor(Math.random() * 10);
+			unidad2 = Math.floor(Math.random() * 10);
+			console.log(unidad1 + unidad2);
+		}while(unidad1 == 0 || unidad2 == 0 || unidad1 < unidad2);
+		minuendo = minuendo * 10 + unidad1;
+		sustraendo = sustraendo * 10 + unidad2;
+	}while(minuendo.toString().length < gLevel);
+
+	$(id + " [name='minuendo']").text(minuendo);
+	$(id + " [name='sustraendo']").text(sustraendo);
+	$(id + " [name='result']").text("");
+	$(id + " [name='redo']").prop("disabled", true);
+	$(id + " [name='result']").focus();
+}
+
+function validarSuma(i){
 	let id = "#suma" + i;
 	let sumando1 = parseInt($(id + " [name='sumando1']").html());
 	let sumando2 = parseInt($(id + " [name='sumando2']").html())
 	let result = parseInt($(id + " [name='result']").html())
 	if ((sumando1 + sumando2) == result) {
+		success(id);
+	} else {
+		error(id);
+	}
+}
+
+function validarResta(i){
+	let id = "#resta" + i;
+	let minuendo = parseInt($(id + " [name='minuendo']").html());
+	let sustraendo = parseInt($(id + " [name='sustraendo']").html())
+	let result = parseInt($(id + " [name='result']").html())
+	if ((minuendo - sustraendo) == result) {
 		success(id);
 	} else {
 		error(id);

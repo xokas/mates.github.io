@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,7 +12,7 @@
         <link href="./css/styles.css" rel="stylesheet" />
         <link href="./css/mates.css" rel="stylesheet" />
         <script src="./js/jquery-min.js"></script>
-        <!--<script src="./js/bones.js"></script>-->
+        <script src="./js/bones.js"></script>
         <script src="./js/font-awesome-min.js"></script>
         <script src="./js/matematicas.js"></script>
     </head>
@@ -22,34 +22,36 @@
         </div>
         <div id="layoutSidenav">
             <div id="layoutSidenav_nav">
-                
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    
+                </nav>
             </div>
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Sumas con llevadas</h1>
+                        <h1 class="mt-4">Restas sin llevadas</h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item active">Ejercicios de sumas con dificultad configurable</li>
+                            <li class="breadcrumb-item active">Ejercicios de restas con dificultad configurable</li>
                         </ol>
                         <!-- SUMA EN VERTICAL -->
                         <div class="row">
-                            <div class="col-6 offset-2 operaciones" id="suma1">
+                            <div class="col-6 offset-2 operaciones" id="resta1">
                                 <div class="row">
                                     <div class="col-6 offset-6">
                                         <div class="card mb-4">
-                                            <div class="card-body elementos" name="sumando1"></div>
+                                            <div class="card-body elementos" name="minuendo"></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-3 offset-3">
                                         <div class="card mb-4">
-                                            <div class="card-body">+</div>
+                                            <div class="card-body">-</div>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="card mb-4">
-                                            <div class="card-body elementos" name="sumando2"></div>
+                                            <div class="card-body elementos" name="sustraendo"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -70,17 +72,17 @@
                                 </div>
                                 <div class="row botones">
                                     <div class="col-3 offset-6">
-                                        <button name="check" class="btn btn-primary" onclick="validarSuma(1)"><span class="fas fa-check"></span></button>
+                                        <button name="check" class="btn btn-primary" onclick="validarResta(1)"><span class="fas fa-check"></span></button>
                                     </div>
                                     <div class="col-3 text-end">
-                                        <button name="redo" class="btn btn-primary" onclick="sumaConLlevadas(1)"><span class="fas fa-redo-alt"></button>
+                                        <button name="redo" class="btn btn-primary" onclick="restaSinLlevadas(1)"><span class="fas fa-redo-alt"></button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </main>
-                <footer class="py-4 bg-light mt-auto" id="footer">
+                <footer id="footer" class="py-4 bg-light mt-auto">
                     
                 </footer>
             </div>
