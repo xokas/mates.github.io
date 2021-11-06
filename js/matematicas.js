@@ -5,6 +5,8 @@ $(document).ready(function(){
 	//document.querySelectorAll('[contenteditable=true]').get(0).focus();
 	//$(document).contents().find("div[contenteditable='true']").first().focus();
 
+	$("#head").load("../header.html");
+
 	let location = window.location.href;
 	console.log(location);
 	if(location.includes('sumas_sin_llevadas.html')){
